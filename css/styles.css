@@ -1,0 +1,158 @@
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: Righteous, sans-serif;
+  font-size: 3em;
+  color: #000 !important;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 280px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 21%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon-origami {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon-origami:hover {
+  color: #e84545;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 25px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #e84545;
+  color: #fff !important;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+#press {
+  background-color: #e84545;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #e84545;
+  color: #fff !important;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+}
+
+#title {
+  background-color: #e84545;
+  color: #fff;
+}
